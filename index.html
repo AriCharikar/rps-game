@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Firefox Safari</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e06e3e6d2d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 class="title"><span class="title--chrome title--text">Chrome</span><span class="title--firefox title--text">Firefox</span><span class="title--safari title--text">Safari</span></h1>
+        </header>
+        <div class="toggle--container">
+            <button class="toggle--instruction">Instructions</button>
+        </div>
+        <div class="instruction--container hide">
+            <h3 class="headline"> <span class="title--chrome">Chrome</span> outpaces <span class="title--firefox">Firefox</span></h3>
+            <h3 class="headline"><span class="title--firefox">Firefox</span> protects better than <span class="title--safari">Safari</span></h3>
+            <h3 class="headline"><span class="title--safari">Safari</span> steals MacOS users from <span class="title--chrome">Chrome</span></h3>
+            <h3 class="headline"><span class="title--chrome">Chrome</span> is Rock |  <span class="title--safari">Safari</span> is Paper | and <span class="title--firefox">Firefox</span> is Scissors</h3>
+        </div>
+        
+        <div class="used">
+            <div class="used--player"></div>
+            <div class="used--computer"></div>
+        </div>
+
+        <div class="score">
+            <div class="score--text score--player"></div>
+            <div class="score--text score--computer"></div>
+        </div>
+
+        <div class="results">
+            <div class="result--round-container"></div>
+            <div class="result--final-container"></div>
+            <div class="restart"></div>
+        </div>
+
+        <div class="choice">
+            <button class="btn btn--chrome" aria-label="chrome"><i class="fab fa-chrome" aria-label="chrome"></i></button>
+            <button class="btn btn--firefox" aria-label="firefox"><i class="fab fa-firefox-browser" aria-label="firefox"></i></button>
+            <button class="btn btn--safari" aria-label="safari"><i class="fab fa-safari"  aria-label="safari"></i></button>
+        </div>
+    </main>
+</body>
+</html>
